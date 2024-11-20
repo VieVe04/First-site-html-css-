@@ -1,0 +1,68 @@
+@font-face {
+    font-family: comfortaa;
+    src: url(https://fonts-online.ru/fonts/comfortaa);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/share?selection.family=Montserrat:ital,wght@0,100..900;1,100..900);
+}
+
+body{
+    font-family: Montserrat;
+    background-color: black;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    height: 200px;
+    width: 200px;
+    float: right; /* Выравнивание по правому краю */
+}
+figure {
+    float: right;
+    display: inline-block; /* Выстраиваем по горизонтали */
+    padding: 20px; /* Поля */
+    margin: 0 0 0 1; /* Отступ */
+   }
+figcaption { 
+    text-align: center; /* Выравниваем по центру */
+    margin: auto;
+    font-style: italic;
+    color: white;
+   }
+h2{
+    font-family: comfortaa;
+    color: #FFA343;
+    font-size: 32px;
+}
+h3{
+    font-family: comfortaa;
+    color: #F8D568;
+    font-size: 24px;
+}
+table{
+    border-color:#4132B2;
+    color: #82898F;
+}
+p{
+    color: grey;
+}
+th,blockquote{
+    color: #fd8165
+}
+.Houston{
+    color:#fd8165
+}
+.context{
+    color: #00ffc2;
+}
+.i{
+    font-style: italic;
+}
+th{
+    font-style: italic;
+}
+.shuiali{
+    color: grey;
+}
